@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDfJPOdLftuqg34m36MiHLQMjaHe9N62Y" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather</h1>
+        <form id="weatherForm">
+            <input type="text" id="city" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+
+        <div class="dashboard">
+            <div id="weather-info" class="card"></div>
+            <div id="time-info" class="card"></div>
+            <div id="sun-info" class="card"></div>
+        </div>
+        
+        <div id="map" class="map-container"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
