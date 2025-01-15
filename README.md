@@ -15,12 +15,12 @@ A comprehensive weather dashboard that combines data from multiple APIs to provi
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   npm install express axios dotenv
+   npm install express axios dotenv path
    ```
 
 3. Create a `.env` file in the root directory with API keys:
 
-4. Start the server:
+4. Start the server
 
 5. Access the application at `http://localhost:3000`
 
